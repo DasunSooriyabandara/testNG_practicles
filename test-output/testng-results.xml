@@ -2,19 +2,27 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-19T17:10:54 IST" name="Default suite" finished-at="2024-05-19T17:10:54 IST" duration-ms="42">
+  <suite started-at="2024-05-19T17:49:12 IST" name="Default suite" finished-at="2024-05-19T17:49:12 IST" duration-ms="63">
     <groups>
     </groups>
-    <test started-at="2024-05-19T17:10:54 IST" name="Default test" finished-at="2024-05-19T17:10:54 IST" duration-ms="42">
+    <test started-at="2024-05-19T17:49:12 IST" name="Default test" finished-at="2024-05-19T17:49:12 IST" duration-ms="63">
       <class name="UI.Login_Test_">
-        <test-method signature="BLogin()[pri:1, instance:UI.Login_Test_@35ef1869]" started-at="2024-05-19T17:10:54 IST" name="BLogin" description=": Login Test" finished-at="2024-05-19T17:10:54 IST" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="beforeTest_login()[pri:0, instance:UI.Login_Test_@6aba2b86]" started-at="2024-05-19T17:49:12 IST" name="beforeTest_login" finished-at="2024-05-19T17:49:12 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest_login -->
+        <test-method signature="BLogin()[pri:1, instance:UI.Login_Test_@6aba2b86]" started-at="2024-05-19T17:49:12 IST" name="BLogin" description=": Test 1" finished-at="2024-05-19T17:49:12 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BLogin -->
-        <test-method signature="ALogOut()[pri:2, instance:UI.Login_Test_@35ef1869]" started-at="2024-05-19T17:10:54 IST" name="ALogOut" description=":LogOut Test" finished-at="2024-05-19T17:10:54 IST" duration-ms="1" status="PASS">
+        <test-method signature="ALogOut()[pri:2, instance:UI.Login_Test_@6aba2b86]" started-at="2024-05-19T17:49:12 IST" name="ALogOut" description=":Test 2" finished-at="2024-05-19T17:49:12 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ALogOut -->
+        <test-method is-config="true" signature="afterTest_logOut()[pri:0, instance:UI.Login_Test_@6aba2b86]" started-at="2024-05-19T17:49:12 IST" name="afterTest_logOut" finished-at="2024-05-19T17:49:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest_logOut -->
       </class> <!-- UI.Login_Test_ -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
