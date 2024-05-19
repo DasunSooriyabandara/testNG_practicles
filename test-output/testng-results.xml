@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-19T17:10:54 IST" name="Default suite" finished-at="2024-05-19T17:10:54 IST" duration-ms="42">
+    <groups>
+    </groups>
+    <test started-at="2024-05-19T17:10:54 IST" name="Default test" finished-at="2024-05-19T17:10:54 IST" duration-ms="42">
+      <class name="UI.Login_Test_">
+        <test-method signature="BLogin()[pri:1, instance:UI.Login_Test_@35ef1869]" started-at="2024-05-19T17:10:54 IST" name="BLogin" description=": Login Test" finished-at="2024-05-19T17:10:54 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BLogin -->
+        <test-method signature="ALogOut()[pri:2, instance:UI.Login_Test_@35ef1869]" started-at="2024-05-19T17:10:54 IST" name="ALogOut" description=":LogOut Test" finished-at="2024-05-19T17:10:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ALogOut -->
+      </class> <!-- UI.Login_Test_ -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
