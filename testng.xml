@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+<suite name="UI Test">
+    <test  name="Functional Testing">
+        <classes>
+            <class name="UI.VerifyTitleAndTextTest"/> <!-- Class to verify title and text -->
+            <class name="UI.GroupDemoTest"/> <!-- Another test class (assuming its purpose is grouping demo) -->
+            <class name="UI.VerifyTitleTest"/> <!-- Class to verify title -->
+            <class name="UI.Login_Test_"/> <!-- Class to test login functionality -->
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
