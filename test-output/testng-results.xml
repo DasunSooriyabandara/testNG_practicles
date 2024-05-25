@@ -1,128 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-22T17:16:31 IST" name="UI Test" finished-at="2024-05-22T17:17:05 IST" duration-ms="34777">
+  <suite started-at="2024-05-25T13:17:11 IST" name="Default suite" finished-at="2024-05-25T13:17:11 IST" duration-ms="45">
     <groups>
       <group name="user-Resgistration">
-        <method signature="GroupDemoTest.Atest()[pri:1, instance:UI.GroupDemoTest@5158b42f]" name="Atest" class="UI.GroupDemoTest"/>
-        <method signature="GroupDemoTest.Btest()[pri:2, instance:UI.GroupDemoTest@5158b42f]" name="Btest" class="UI.GroupDemoTest"/>
-        <method signature="GroupDemoTest.Ctest()[pri:0, instance:UI.GroupDemoTest@5158b42f]" name="Ctest" class="UI.GroupDemoTest"/>
-        <method signature="GroupDemoTest.Dtest()[pri:0, instance:UI.GroupDemoTest@5158b42f]" name="Dtest" class="UI.GroupDemoTest"/>
-        <method signature="GroupDemoTest.Etest()[pri:0, instance:UI.GroupDemoTest@5158b42f]" name="Etest" class="UI.GroupDemoTest"/>
+        <method signature="Annotations.Atest()[pri:1, instance:UI.Annotations@3e58a80e]" name="Atest" class="UI.Annotations"/>
+        <method signature="Annotations.Btest()[pri:2, instance:UI.Annotations@3e58a80e]" name="Btest" class="UI.Annotations"/>
+        <method signature="Annotations.Ctest()[pri:0, instance:UI.Annotations@3e58a80e]" name="Ctest" class="UI.Annotations"/>
+        <method signature="Annotations.Dtest()[pri:0, instance:UI.Annotations@3e58a80e]" name="Dtest" class="UI.Annotations"/>
+        <method signature="Annotations.Etest()[pri:0, instance:UI.Annotations@3e58a80e]" name="Etest" class="UI.Annotations"/>
       </group> <!-- user-Resgistration -->
       <group name="regression">
-        <method signature="GroupDemoTest.Atest()[pri:1, instance:UI.GroupDemoTest@5158b42f]" name="Atest" class="UI.GroupDemoTest"/>
-        <method signature="GroupDemoTest.Btest()[pri:2, instance:UI.GroupDemoTest@5158b42f]" name="Btest" class="UI.GroupDemoTest"/>
-        <method signature="GroupDemoTest.Ctest()[pri:0, instance:UI.GroupDemoTest@5158b42f]" name="Ctest" class="UI.GroupDemoTest"/>
+        <method signature="Annotations.Atest()[pri:1, instance:UI.Annotations@3e58a80e]" name="Atest" class="UI.Annotations"/>
+        <method signature="Annotations.Btest()[pri:2, instance:UI.Annotations@3e58a80e]" name="Btest" class="UI.Annotations"/>
+        <method signature="Annotations.Ctest()[pri:0, instance:UI.Annotations@3e58a80e]" name="Ctest" class="UI.Annotations"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="GroupDemoTest.Ctest()[pri:0, instance:UI.GroupDemoTest@5158b42f]" name="Ctest" class="UI.GroupDemoTest"/>
-        <method signature="GroupDemoTest.Dtest()[pri:0, instance:UI.GroupDemoTest@5158b42f]" name="Dtest" class="UI.GroupDemoTest"/>
-        <method signature="GroupDemoTest.Etest()[pri:0, instance:UI.GroupDemoTest@5158b42f]" name="Etest" class="UI.GroupDemoTest"/>
+        <method signature="Annotations.Ctest()[pri:0, instance:UI.Annotations@3e58a80e]" name="Ctest" class="UI.Annotations"/>
+        <method signature="Annotations.Dtest()[pri:0, instance:UI.Annotations@3e58a80e]" name="Dtest" class="UI.Annotations"/>
+        <method signature="Annotations.Etest()[pri:0, instance:UI.Annotations@3e58a80e]" name="Etest" class="UI.Annotations"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2024-05-22T17:16:31 IST" name="Functional Testing" finished-at="2024-05-22T17:17:05 IST" duration-ms="34777">
-      <class name="UI.VerifyTitleAndTextTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:UI.VerifyTitleAndTextTest@61862a7f]" started-at="2024-05-22T17:16:31 IST" name="setUp" finished-at="2024-05-22T17:16:36 IST" duration-ms="4970" status="PASS">
+    <test started-at="2024-05-25T13:17:11 IST" name="Default test" finished-at="2024-05-25T13:17:11 IST" duration-ms="45">
+      <class name="UI.Annotations">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:UI.Annotations@3e58a80e]" started-at="2024-05-25T13:17:11 IST" name="beforeClass" finished-at="2024-05-25T13:17:11 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="titleTest()[pri:1, instance:UI.VerifyTitleAndTextTest@61862a7f]" started-at="2024-05-22T17:16:36 IST" name="titleTest" description="Verify the title and the text on Search button of eBay homepage" finished-at="2024-05-22T17:16:42 IST" duration-ms="6054" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- titleTest -->
-      </class> <!-- UI.VerifyTitleAndTextTest -->
-      <class name="UI.GroupDemoTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:UI.GroupDemoTest@5158b42f]" started-at="2024-05-22T17:16:42 IST" name="setUp" finished-at="2024-05-22T17:16:43 IST" duration-ms="1412" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Ctest()[pri:0, instance:UI.GroupDemoTest@5158b42f]" started-at="2024-05-22T17:16:43 IST" name="Ctest" finished-at="2024-05-22T17:16:43 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- beforeClass -->
+        <test-method signature="Ctest()[pri:0, instance:UI.Annotations@3e58a80e]" started-at="2024-05-25T13:17:11 IST" name="Ctest" finished-at="2024-05-25T13:17:11 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Ctest -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:UI.GroupDemoTest@5158b42f]" started-at="2024-05-22T17:16:43 IST" name="setUp" finished-at="2024-05-22T17:16:45 IST" duration-ms="1501" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Dtest()[pri:0, instance:UI.GroupDemoTest@5158b42f]" started-at="2024-05-22T17:16:45 IST" name="Dtest" finished-at="2024-05-22T17:16:45 IST" duration-ms="2" status="PASS">
+        <test-method signature="Dtest()[pri:0, instance:UI.Annotations@3e58a80e]" started-at="2024-05-25T13:17:11 IST" name="Dtest" finished-at="2024-05-25T13:17:11 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Dtest -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:UI.GroupDemoTest@5158b42f]" started-at="2024-05-22T17:16:45 IST" name="setUp" finished-at="2024-05-22T17:16:47 IST" duration-ms="2406" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Etest()[pri:0, instance:UI.GroupDemoTest@5158b42f]" started-at="2024-05-22T17:16:47 IST" name="Etest" finished-at="2024-05-22T17:16:47 IST" duration-ms="2" status="PASS">
+        <test-method signature="Etest()[pri:0, instance:UI.Annotations@3e58a80e]" started-at="2024-05-25T13:17:11 IST" name="Etest" finished-at="2024-05-25T13:17:11 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Etest -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:UI.GroupDemoTest@5158b42f]" started-at="2024-05-22T17:16:47 IST" name="setUp" finished-at="2024-05-22T17:16:50 IST" duration-ms="2530" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Atest()[pri:1, instance:UI.GroupDemoTest@5158b42f]" started-at="2024-05-22T17:16:50 IST" name="Atest" finished-at="2024-05-22T17:16:50 IST" duration-ms="2" status="PASS">
+        <test-method signature="Atest()[pri:1, instance:UI.Annotations@3e58a80e]" started-at="2024-05-25T13:17:11 IST" name="Atest" finished-at="2024-05-25T13:17:11 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Atest -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:UI.GroupDemoTest@5158b42f]" started-at="2024-05-22T17:16:50 IST" name="setUp" finished-at="2024-05-22T17:16:56 IST" duration-ms="6481" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Btest()[pri:2, instance:UI.GroupDemoTest@5158b42f]" started-at="2024-05-22T17:16:56 IST" name="Btest" finished-at="2024-05-22T17:16:56 IST" duration-ms="3" status="PASS">
+        <test-method signature="Btest()[pri:2, instance:UI.Annotations@3e58a80e]" started-at="2024-05-25T13:17:11 IST" name="Btest" finished-at="2024-05-25T13:17:11 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Btest -->
-      </class> <!-- UI.GroupDemoTest -->
-      <class name="UI.VerifyTitleTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:UI.VerifyTitleTest@595b007d]" started-at="2024-05-22T17:16:56 IST" name="setUp" finished-at="2024-05-22T17:16:58 IST" duration-ms="2360" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="titleTest()[pri:1, instance:UI.VerifyTitleTest@595b007d]" started-at="2024-05-22T17:16:58 IST" name="titleTest" description="Verify the title of eBay homepage" finished-at="2024-05-22T17:17:05 IST" duration-ms="6710" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- titleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:UI.VerifyTitleTest@595b007d]" started-at="2024-05-22T17:17:05 IST" name="tearDown" finished-at="2024-05-22T17:17:05 IST" duration-ms="271" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- UI.VerifyTitleTest -->
-      <class name="UI.Login_Test_">
-        <test-method is-config="true" signature="beforeTest_login()[pri:0, instance:UI.Login_Test_@72d1ad2e]" started-at="2024-05-22T17:16:31 IST" name="beforeTest_login" finished-at="2024-05-22T17:16:31 IST" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest_login -->
-        <test-method is-config="true" signature="connectToDB()[pri:0, instance:UI.Login_Test_@72d1ad2e]" started-at="2024-05-22T17:17:05 IST" name="connectToDB" finished-at="2024-05-22T17:17:05 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- connectToDB -->
-        <test-method signature="BLogin()[pri:1, instance:UI.Login_Test_@72d1ad2e]" started-at="2024-05-22T17:17:05 IST" name="BLogin" description=": Test 1" finished-at="2024-05-22T17:17:05 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BLogin -->
-        <test-method is-config="true" signature="disconnectToDB()[pri:0, instance:UI.Login_Test_@72d1ad2e]" started-at="2024-05-22T17:17:05 IST" name="disconnectToDB" finished-at="2024-05-22T17:17:05 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- disconnectToDB -->
-        <test-method is-config="true" signature="connectToDB()[pri:0, instance:UI.Login_Test_@72d1ad2e]" started-at="2024-05-22T17:17:05 IST" name="connectToDB" finished-at="2024-05-22T17:17:05 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- connectToDB -->
-        <test-method signature="ALogOut()[pri:2, instance:UI.Login_Test_@72d1ad2e]" started-at="2024-05-22T17:17:05 IST" name="ALogOut" description=":Test 2" finished-at="2024-05-22T17:17:05 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ALogOut -->
-        <test-method is-config="true" signature="afterTest_logOut()[pri:0, instance:UI.Login_Test_@72d1ad2e]" started-at="2024-05-22T17:17:05 IST" name="afterTest_logOut" finished-at="2024-05-22T17:17:05 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest_logOut -->
-        <test-method is-config="true" signature="disconnectToDB()[pri:0, instance:UI.Login_Test_@72d1ad2e]" started-at="2024-05-22T17:17:05 IST" name="disconnectToDB" finished-at="2024-05-22T17:17:05 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- disconnectToDB -->
-      </class> <!-- UI.Login_Test_ -->
-    </test> <!-- Functional Testing -->
-  </suite> <!-- UI Test -->
+      </class> <!-- UI.Annotations -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
