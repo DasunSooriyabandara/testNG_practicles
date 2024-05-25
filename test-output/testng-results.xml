@@ -2,53 +2,50 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-25T13:17:11 IST" name="Default suite" finished-at="2024-05-25T13:17:11 IST" duration-ms="45">
+  <suite started-at="2024-05-25T16:26:26 IST" name="Suite Setup and TearDown" finished-at="2024-05-25T16:26:26 IST" duration-ms="45">
     <groups>
-      <group name="user-Resgistration">
-        <method signature="Annotations.Atest()[pri:1, instance:UI.Annotations@3e58a80e]" name="Atest" class="UI.Annotations"/>
-        <method signature="Annotations.Btest()[pri:2, instance:UI.Annotations@3e58a80e]" name="Btest" class="UI.Annotations"/>
-        <method signature="Annotations.Ctest()[pri:0, instance:UI.Annotations@3e58a80e]" name="Ctest" class="UI.Annotations"/>
-        <method signature="Annotations.Dtest()[pri:0, instance:UI.Annotations@3e58a80e]" name="Dtest" class="UI.Annotations"/>
-        <method signature="Annotations.Etest()[pri:0, instance:UI.Annotations@3e58a80e]" name="Etest" class="UI.Annotations"/>
-      </group> <!-- user-Resgistration -->
       <group name="regression">
-        <method signature="Annotations.Atest()[pri:1, instance:UI.Annotations@3e58a80e]" name="Atest" class="UI.Annotations"/>
-        <method signature="Annotations.Btest()[pri:2, instance:UI.Annotations@3e58a80e]" name="Btest" class="UI.Annotations"/>
-        <method signature="Annotations.Ctest()[pri:0, instance:UI.Annotations@3e58a80e]" name="Ctest" class="UI.Annotations"/>
+        <method signature="GroupDemoTest2.Atest()[pri:1, instance:UI.GroupDemoTest2@59309333]" name="Atest" class="UI.GroupDemoTest2"/>
+        <method signature="GroupDemoTest2.Btest()[pri:2, instance:UI.GroupDemoTest2@59309333]" name="Btest" class="UI.GroupDemoTest2"/>
+        <method signature="GroupDemoTest2.Ctest()[pri:0, instance:UI.GroupDemoTest2@59309333]" name="Ctest" class="UI.GroupDemoTest2"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="Annotations.Ctest()[pri:0, instance:UI.Annotations@3e58a80e]" name="Ctest" class="UI.Annotations"/>
-        <method signature="Annotations.Dtest()[pri:0, instance:UI.Annotations@3e58a80e]" name="Dtest" class="UI.Annotations"/>
-        <method signature="Annotations.Etest()[pri:0, instance:UI.Annotations@3e58a80e]" name="Etest" class="UI.Annotations"/>
+        <method signature="GroupDemoTest2.Ctest()[pri:0, instance:UI.GroupDemoTest2@59309333]" name="Ctest" class="UI.GroupDemoTest2"/>
+        <method signature="GroupDemoTest2.Dtest()[pri:0, instance:UI.GroupDemoTest2@59309333]" name="Dtest" class="UI.GroupDemoTest2"/>
+        <method signature="GroupDemoTest2.Etest()[pri:0, instance:UI.GroupDemoTest2@59309333]" name="Etest" class="UI.GroupDemoTest2"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2024-05-25T13:17:11 IST" name="Default test" finished-at="2024-05-25T13:17:11 IST" duration-ms="45">
-      <class name="UI.Annotations">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:UI.Annotations@3e58a80e]" started-at="2024-05-25T13:17:11 IST" name="beforeClass" finished-at="2024-05-25T13:17:11 IST" duration-ms="7" status="PASS">
+    <test started-at="2024-05-25T16:26:26 IST" name="Test BeforeSUite and AfterSuite" finished-at="2024-05-25T16:26:26 IST" duration-ms="45">
+      <class name="UI.GroupDemoTest2">
+        <test-method is-config="true" signature="dataSetup()[pri:0, instance:UI.GroupDemoTest2@59309333]" started-at="2024-05-25T16:26:26 IST" name="dataSetup" finished-at="2024-05-25T16:26:26 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="Ctest()[pri:0, instance:UI.Annotations@3e58a80e]" started-at="2024-05-25T13:17:11 IST" name="Ctest" finished-at="2024-05-25T13:17:11 IST" duration-ms="5" status="PASS">
+        </test-method> <!-- dataSetup -->
+        <test-method signature="Ctest()[pri:0, instance:UI.GroupDemoTest2@59309333]" started-at="2024-05-25T16:26:26 IST" name="Ctest" finished-at="2024-05-25T16:26:26 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Ctest -->
-        <test-method signature="Dtest()[pri:0, instance:UI.Annotations@3e58a80e]" started-at="2024-05-25T13:17:11 IST" name="Dtest" finished-at="2024-05-25T13:17:11 IST" duration-ms="1" status="PASS">
+        <test-method signature="Dtest()[pri:0, instance:UI.GroupDemoTest2@59309333]" started-at="2024-05-25T16:26:26 IST" name="Dtest" finished-at="2024-05-25T16:26:26 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Dtest -->
-        <test-method signature="Etest()[pri:0, instance:UI.Annotations@3e58a80e]" started-at="2024-05-25T13:17:11 IST" name="Etest" finished-at="2024-05-25T13:17:11 IST" duration-ms="1" status="PASS">
+        <test-method signature="Etest()[pri:0, instance:UI.GroupDemoTest2@59309333]" started-at="2024-05-25T16:26:26 IST" name="Etest" finished-at="2024-05-25T16:26:26 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Etest -->
-        <test-method signature="Atest()[pri:1, instance:UI.Annotations@3e58a80e]" started-at="2024-05-25T13:17:11 IST" name="Atest" finished-at="2024-05-25T13:17:11 IST" duration-ms="1" status="PASS">
+        <test-method signature="Atest()[pri:1, instance:UI.GroupDemoTest2@59309333]" started-at="2024-05-25T16:26:26 IST" name="Atest" finished-at="2024-05-25T16:26:26 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Atest -->
-        <test-method signature="Btest()[pri:2, instance:UI.Annotations@3e58a80e]" started-at="2024-05-25T13:17:11 IST" name="Btest" finished-at="2024-05-25T13:17:11 IST" duration-ms="0" status="PASS">
+        <test-method signature="Btest()[pri:2, instance:UI.GroupDemoTest2@59309333]" started-at="2024-05-25T16:26:26 IST" name="Btest" finished-at="2024-05-25T16:26:26 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Btest -->
-      </class> <!-- UI.Annotations -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method is-config="true" signature="dataTeardown()[pri:0, instance:UI.GroupDemoTest2@59309333]" started-at="2024-05-25T16:26:26 IST" name="dataTeardown" finished-at="2024-05-25T16:26:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataTeardown -->
+      </class> <!-- UI.GroupDemoTest2 -->
+    </test> <!-- Test BeforeSUite and AfterSuite -->
+  </suite> <!-- Suite Setup and TearDown -->
 </testng-results>
