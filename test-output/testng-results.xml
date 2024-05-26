@@ -1,51 +1,161 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-25T16:26:26 IST" name="Suite Setup and TearDown" finished-at="2024-05-25T16:26:26 IST" duration-ms="45">
+  <suite started-at="2024-05-26T17:54:15 IST" name="Default suite" finished-at="2024-05-26T17:54:15 IST" duration-ms="67">
     <groups>
-      <group name="regression">
-        <method signature="GroupDemoTest2.Atest()[pri:1, instance:UI.GroupDemoTest2@59309333]" name="Atest" class="UI.GroupDemoTest2"/>
-        <method signature="GroupDemoTest2.Btest()[pri:2, instance:UI.GroupDemoTest2@59309333]" name="Btest" class="UI.GroupDemoTest2"/>
-        <method signature="GroupDemoTest2.Ctest()[pri:0, instance:UI.GroupDemoTest2@59309333]" name="Ctest" class="UI.GroupDemoTest2"/>
-      </group> <!-- regression -->
-      <group name="smoke">
-        <method signature="GroupDemoTest2.Ctest()[pri:0, instance:UI.GroupDemoTest2@59309333]" name="Ctest" class="UI.GroupDemoTest2"/>
-        <method signature="GroupDemoTest2.Dtest()[pri:0, instance:UI.GroupDemoTest2@59309333]" name="Dtest" class="UI.GroupDemoTest2"/>
-        <method signature="GroupDemoTest2.Etest()[pri:0, instance:UI.GroupDemoTest2@59309333]" name="Etest" class="UI.GroupDemoTest2"/>
-      </group> <!-- smoke -->
     </groups>
-    <test started-at="2024-05-25T16:26:26 IST" name="Test BeforeSUite and AfterSuite" finished-at="2024-05-25T16:26:26 IST" duration-ms="45">
-      <class name="UI.GroupDemoTest2">
-        <test-method is-config="true" signature="dataSetup()[pri:0, instance:UI.GroupDemoTest2@59309333]" started-at="2024-05-25T16:26:26 IST" name="dataSetup" finished-at="2024-05-25T16:26:26 IST" duration-ms="5" status="PASS">
+    <test started-at="2024-05-26T17:54:15 IST" name="Default test" finished-at="2024-05-26T17:54:15 IST" duration-ms="67">
+      <class name="UI.DataProvidersDemoTest">
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:UI.DataProvidersDemoTest@55b7a4e0]" started-at="2024-05-26T17:54:15 IST" name="test" data-provider="dataSet" finished-at="2024-05-26T17:54:15 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dataSetup -->
-        <test-method signature="Ctest()[pri:0, instance:UI.GroupDemoTest2@59309333]" started-at="2024-05-25T16:26:26 IST" name="Ctest" finished-at="2024-05-25T16:26:26 IST" duration-ms="7" status="PASS">
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:UI.DataProvidersDemoTest@55b7a4e0]" started-at="2024-05-26T17:54:15 IST" name="test" data-provider="dataSet" finished-at="2024-05-26T17:54:15 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Ctest -->
-        <test-method signature="Dtest()[pri:0, instance:UI.GroupDemoTest2@59309333]" started-at="2024-05-25T16:26:26 IST" name="Dtest" finished-at="2024-05-25T16:26:26 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:UI.DataProvidersDemoTest@55b7a4e0]" started-at="2024-05-26T17:54:15 IST" name="test" data-provider="dataSet" finished-at="2024-05-26T17:54:15 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Dtest -->
-        <test-method signature="Etest()[pri:0, instance:UI.GroupDemoTest2@59309333]" started-at="2024-05-25T16:26:26 IST" name="Etest" finished-at="2024-05-25T16:26:26 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:UI.DataProvidersDemoTest@55b7a4e0]" started-at="2024-05-26T17:54:15 IST" name="test" data-provider="dataSet" finished-at="2024-05-26T17:54:15 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password4]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Etest -->
-        <test-method signature="Atest()[pri:1, instance:UI.GroupDemoTest2@59309333]" started-at="2024-05-25T16:26:26 IST" name="Atest" finished-at="2024-05-25T16:26:26 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- test -->
+        <test-method signature="testone(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:UI.DataProvidersDemoTest@55b7a4e0]" started-at="2024-05-26T17:54:15 IST" name="testone" data-provider="create" finished-at="2024-05-26T17:54:15 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Atest -->
-        <test-method signature="Btest()[pri:2, instance:UI.GroupDemoTest2@59309333]" started-at="2024-05-25T16:26:26 IST" name="Btest" finished-at="2024-05-25T16:26:26 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- testone -->
+        <test-method signature="testone(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:UI.DataProvidersDemoTest@55b7a4e0]" started-at="2024-05-26T17:54:15 IST" name="testone" data-provider="create" finished-at="2024-05-26T17:54:15 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Btest -->
-        <test-method is-config="true" signature="dataTeardown()[pri:0, instance:UI.GroupDemoTest2@59309333]" started-at="2024-05-25T16:26:26 IST" name="dataTeardown" finished-at="2024-05-25T16:26:26 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- testone -->
+        <test-method signature="testone(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:UI.DataProvidersDemoTest@55b7a4e0]" started-at="2024-05-26T17:54:15 IST" name="testone" data-provider="create" finished-at="2024-05-26T17:54:15 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dataTeardown -->
-      </class> <!-- UI.GroupDemoTest2 -->
-    </test> <!-- Test BeforeSUite and AfterSuite -->
-  </suite> <!-- Suite Setup and TearDown -->
+        </test-method> <!-- testone -->
+        <test-method signature="testone(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:UI.DataProvidersDemoTest@55b7a4e0]" started-at="2024-05-26T17:54:15 IST" name="testone" data-provider="create" finished-at="2024-05-26T17:54:15 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testone -->
+      </class> <!-- UI.DataProvidersDemoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
