@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+<suite name="Reading browser details about testng xml">
+    <test  name="Reading browser details about testng xml">
+        
+        <parameter name="browser" value="edge">  </parameter>
+        
+        <classes>  
+            <class name="UI.Login_Test_Browser_External_XML_File"/> <!-- Class to test login functionality -->
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

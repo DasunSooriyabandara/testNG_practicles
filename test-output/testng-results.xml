@@ -1,161 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-26T17:54:15 IST" name="Default suite" finished-at="2024-05-26T17:54:15 IST" duration-ms="67">
+  <suite started-at="2024-05-29T11:05:23 IST" name="Reading browser details about testng xml" finished-at="2024-05-29T11:06:11 IST" duration-ms="48102">
     <groups>
     </groups>
-    <test started-at="2024-05-26T17:54:15 IST" name="Default test" finished-at="2024-05-26T17:54:15 IST" duration-ms="67">
-      <class name="UI.DataProvidersDemoTest">
-        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:UI.DataProvidersDemoTest@55b7a4e0]" started-at="2024-05-26T17:54:15 IST" name="test" data-provider="dataSet" finished-at="2024-05-26T17:54:15 IST" duration-ms="11" status="PASS">
+    <test started-at="2024-05-29T11:05:23 IST" name="Reading browser details about testng xml" finished-at="2024-05-29T11:06:11 IST" duration-ms="48102">
+      <class name="UI.Login_Test_Browser_External_XML_File">
+        <test-method signature="LaunchApplication(java.lang.String)[pri:0, instance:UI.Login_Test_Browser_External_XML_File@dbf57b3]" started-at="2024-05-29T11:05:23 IST" name="LaunchApplication" finished-at="2024-05-29T11:06:11 IST" duration-ms="47828" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[user1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password1]]>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:UI.DataProvidersDemoTest@55b7a4e0]" started-at="2024-05-26T17:54:15 IST" name="test" data-provider="dataSet" finished-at="2024-05-26T17:54:15 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[user2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:UI.DataProvidersDemoTest@55b7a4e0]" started-at="2024-05-26T17:54:15 IST" name="test" data-provider="dataSet" finished-at="2024-05-26T17:54:15 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[user3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:UI.DataProvidersDemoTest@55b7a4e0]" started-at="2024-05-26T17:54:15 IST" name="test" data-provider="dataSet" finished-at="2024-05-26T17:54:15 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[user4]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password4]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="testone(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:UI.DataProvidersDemoTest@55b7a4e0]" started-at="2024-05-26T17:54:15 IST" name="testone" data-provider="create" finished-at="2024-05-26T17:54:15 IST" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[username]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[test]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testone -->
-        <test-method signature="testone(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:UI.DataProvidersDemoTest@55b7a4e0]" started-at="2024-05-26T17:54:15 IST" name="testone" data-provider="create" finished-at="2024-05-26T17:54:15 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[username1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password1]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[test]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testone -->
-        <test-method signature="testone(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:UI.DataProvidersDemoTest@55b7a4e0]" started-at="2024-05-26T17:54:15 IST" name="testone" data-provider="create" finished-at="2024-05-26T17:54:15 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[username2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password2]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[test]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testone -->
-        <test-method signature="testone(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:UI.DataProvidersDemoTest@55b7a4e0]" started-at="2024-05-26T17:54:15 IST" name="testone" data-provider="create" finished-at="2024-05-26T17:54:15 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[username3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password3]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[test]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testone -->
-      </class> <!-- UI.DataProvidersDemoTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- LaunchApplication -->
+      </class> <!-- UI.Login_Test_Browser_External_XML_File -->
+    </test> <!-- Reading browser details about testng xml -->
+  </suite> <!-- Reading browser details about testng xml -->
 </testng-results>
