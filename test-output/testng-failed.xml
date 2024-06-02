@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Reading browser details about testng xml]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Reading browser details about testng xml(failed)">
-    <parameter name="browser" value="edge"/>
+<suite name="Failed suite [Depandancy Test ]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Methods Depends on One Method(failed)">
     <classes>
-      <class name="UI.Login_Test_Browser_External_XML_File">
+      <class name="UI.DependancyTest">
         <methods>
-          <include name="LaunchApplication" invocation-numbers="0"/>
+          <include name="userRegistration"/>
+          <include name="UserSearch"/>
         </methods>
-      </class> <!-- UI.Login_Test_Browser_External_XML_File -->
+      </class> <!-- UI.DependancyTest -->
     </classes>
-  </test> <!-- Reading browser details about testng xml(failed) -->
-</suite> <!-- Failed suite [Reading browser details about testng xml] -->
+  </test> <!-- Methods Depends on One Method(failed) -->
+</suite> <!-- Failed suite [Depandancy Test ] -->

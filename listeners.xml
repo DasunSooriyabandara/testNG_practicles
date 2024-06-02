@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Listener Test Suit ">
+	<listeners>
+		<listener class-name="common.RetryListerner"></listener>
+	</listeners>
+	<test name="Test BeforeSUite and AfterSuite with Assertion">
+		<classes>
+			<class name="UI.ListenerDemoTest" />
+			
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
