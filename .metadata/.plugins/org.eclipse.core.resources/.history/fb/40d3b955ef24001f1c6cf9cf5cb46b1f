@@ -1,0 +1,9 @@
+
+
+signin_link=Sign in
+email_field=login_id
+next_button=nextbtn
+pwd_field=password
+login_next_button=nextbtn
+profile_link=profile_link_id_or_locator
+error_message=error_message_id_or_locator

@@ -1,0 +1,78 @@
+package testcases;
+
+import java.time.Duration;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import base.BaseTest;
+
+public class MyFirstTest extends BaseTest {
+
+    @Test(dataProvider = "LoginDataProvider")
+    public void LoginTest(String username, String password) {
+        try {
+            // Print the title of the page
+            System.out.println("Title of the page is: " + driver.getTitle());
+
+            // Click on the "Sign in" link
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+            WebElement signInLink = wait.until(ExpectedConditions.elementToBeClickable(By.linkText(propert.getProperty("signin_link"))));
+            System.out.println("Sign in link found");
+            signInLink.click();
+            System.out.println("Clicked on Sign in link");
+
+            // Enter login credentials and click next
+            WebElement loginIdField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id(propert.getProperty("email_field"))));
+            System.out.println("Email field found");
+            loginIdField.sendKeys(username);
+            System.out.println("Entered username: " + username);
+
+            WebElement nextButton = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector(propert.getProperty("next_button"))));
+            System.out.println("Next button found");
+            nextButton.click();
+            System.out.println("Clicked on Next button");
+
+            WebElement passwordField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id(propert.getProperty("pwd_field"))));
+            System.out.println("Password field found");
+            passwordField.sendKeys();
+            System.out.println("Entered password");
+
+            WebElement nextButtonAfterPassword = wait.until(ExpectedConditions.elementToBeClickable(By.id(propert.getProperty("login_next_button"))));
+            System.out.println("Next button after password found");
+            nextButtonAfterPassword.click();
+            System.out.println("Clicked on Next button after password");
+
+            // Verification step
+            // Check if login was successful by checking the presence of a user profile link
+            try {
+                WebElement profileLink = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id(propert.getProperty("profile_link"))));
+                Assert.assertTrue(profileLink.isDisplayed(), "Login successful, profile link is displayed.");
+                System.out.println("Login successful");
+            } catch (Exception e) {
+                // If profile link is not found, check for the presence of an error message
+                WebElement errorMessage = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id(propert.getProperty("error_message"))));
+                Assert.assertTrue(errorMessage.isDisplayed(), "Login failed, error message is displayed.");
+                System.out.println("Login failed, error message displayed");
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            Assert.fail("Test encountered an exception.");
+        }
+    }
+
+    @DataProvider(name = "LoginDataProvider")
+    public Object[][] LoginData() {
+        return new Object[][] {
+            { "dfsdfsdf@gmail.com", "fafafafafas" },
+            { "dfafsfasfaffs@gmail.com", "fafafafafas" },
+            { "dasunsooriyabandara@gmail.com", "fafafafafas" },
+            { "dasunsooriyabandara@gmail.com", "" }
+        };
+    }
+}

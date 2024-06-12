@@ -1283,3 +1283,978 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag nam
 2024-06-06 23:51:55,634 [Worker-262: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2024-06-06 23:51:55,714 [Worker-262: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
 2024-06-06 23:53:42,980 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-06-07 00:25:34,056 [Worker-32: Launching TestAutomationFramework_testrunner.testng.xml] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/testng/testng/maven-metadata.xml
+2024-06-07 00:25:34,084 [Worker-32: Launching TestAutomationFramework_testrunner.testng.xml] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/testng/testng/maven-metadata.xml
+2024-06-07 00:25:34,223 [Worker-32: Launching TestAutomationFramework_testrunner.testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2024-06-07 00:25:34,240 [Worker-32: Launching TestAutomationFramework_testrunner.testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2024-06-07 00:25:34,263 [Worker-32: Launching TestAutomationFramework_testrunner.testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2024-06-07 00:25:36,438 [Worker-32: Launching TestAutomationFramework_testrunner.testng.xml] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/beust/jcommander/1.66/jcommander-1.66.pom
+2024-06-07 00:25:36,440 [Worker-32: Launching TestAutomationFramework_testrunner.testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.beust:jcommander:jar:1.66 is missing, no dependency information available
+2024-06-07 00:25:38,918 [Worker-32: Launching TestAutomationFramework_testrunner.testng.xml] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier  to /Drawify_Testing/target/classes
+2024-06-07 00:25:39,443 [Worker-32: Launching TestAutomationFramework_testrunner.testng.xml] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 00:25:39,461 [Worker-32: Launching TestAutomationFramework_testrunner.testng.xml] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 00:25:39,466 [Worker-32: Launching TestAutomationFramework_testrunner.testng.xml] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 00:25:39,468 [Worker-32: Launching TestAutomationFramework_testrunner.testng.xml] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 00:25:40,668 [Worker-32: Launching TestAutomationFramework_testrunner.testng.xml] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 00:25:40,789 [Worker-32: Launching TestAutomationFramework_testrunner.testng.xml] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 00:25:40,856 [Worker-32: Launching TestAutomationFramework_testrunner.testng.xml] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 16:30:13,924 [Worker-80: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 16:30:14,463 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 16:30:14,495 [Worker-80: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 16:30:14,503 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-07 17:38:45,723 [Worker-97: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 17:38:45,890 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 17:38:45,897 [Worker-97: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 17:38:45,926 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 17:38:55,208 [Worker-97: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 17:38:55,383 [Worker-97: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 17:38:55,471 [Worker-97: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 17:40:00,917 [Worker-96: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 17:40:00,924 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 17:40:00,928 [Worker-96: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 17:40:00,984 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 17:40:24,392 [Worker-97: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 17:40:24,481 [Worker-97: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 17:40:24,561 [Worker-97: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 17:43:12,402 [Worker-82: Launching MyFirstTest.LoginData] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 17:43:12,619 [Worker-82: Launching MyFirstTest.LoginData] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 17:43:12,693 [Worker-82: Launching MyFirstTest.LoginData] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 17:43:39,451 [Worker-82: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 17:43:39,513 [Worker-82: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 17:43:39,569 [Worker-82: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 17:44:29,056 [Worker-102: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 17:44:29,057 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 17:44:29,060 [Worker-102: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 17:44:29,062 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 17:44:36,092 [Worker-103: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 17:44:36,093 [Worker-103: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 17:44:36,095 [Worker-103: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 17:44:36,096 [Worker-103: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 17:47:49,311 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-06-07 17:51:30,423 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2024-06-07 17:51:30,431 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2024-06-07 17:51:30,437 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2024-06-07 17:51:30,701 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.beust:jcommander:jar:1.66 is missing, no dependency information available
+2024-06-07 17:51:32,352 [Worker-22: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier  to /Drawify_Testing/target/classes
+2024-06-07 17:51:32,637 [Worker-22: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 17:51:32,642 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 17:51:32,648 [Worker-22: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 17:51:32,650 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 17:51:58,257 [Worker-14: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 17:51:58,366 [Worker-14: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 17:51:58,426 [Worker-14: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 17:53:06,688 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-06-07 17:53:35,396 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2024-06-07 17:53:35,402 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2024-06-07 17:53:35,407 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2024-06-07 17:53:35,573 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.beust:jcommander:jar:1.66 is missing, no dependency information available
+2024-06-07 17:53:36,264 [Worker-6: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier  to /Drawify_Testing/target/classes
+2024-06-07 17:53:36,582 [Worker-6: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 17:53:36,587 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 17:53:36,591 [Worker-6: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 17:53:36,593 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 17:53:39,229 [Worker-2: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 17:53:39,387 [Worker-2: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 17:53:39,482 [Worker-2: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 17:54:49,721 [Worker-7: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 17:54:49,723 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 17:54:49,726 [Worker-7: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 17:54:49,728 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\test\resources to target\test-classes
+2024-06-07 17:54:58,154 [Worker-15: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 17:54:58,243 [Worker-15: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 17:54:58,311 [Worker-15: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 17:55:34,109 [Worker-8: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 17:55:34,111 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 17:55:34,113 [Worker-8: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 17:55:34,115 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\test\resources to target\test-classes
+2024-06-07 17:55:50,692 [Worker-20: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 17:55:50,694 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 17:55:50,698 [Worker-20: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 17:55:50,700 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 17:55:55,535 [Worker-20: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 17:55:55,536 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 17:55:55,539 [Worker-20: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 17:55:55,540 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 17:56:28,244 [Worker-2: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 17:56:28,245 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 17:56:28,247 [Worker-2: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 17:56:28,249 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 17:56:31,937 [Worker-8: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 17:56:32,017 [Worker-8: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 17:56:32,093 [Worker-8: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 17:57:40,841 [Worker-8: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 17:57:40,843 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 17:57:40,845 [Worker-8: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 17:57:40,847 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 17:57:45,176 [Worker-5: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 17:57:45,267 [Worker-5: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 17:57:45,343 [Worker-5: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 18:01:33,961 [Worker-21: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 18:01:33,962 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 18:01:33,964 [Worker-21: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 18:01:33,966 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 18:01:38,282 [Worker-11: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 18:01:38,392 [Worker-11: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 18:01:38,467 [Worker-11: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 18:07:18,161 [Worker-25: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 18:07:18,162 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 18:07:18,164 [Worker-25: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 18:07:18,165 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 18:07:23,889 [Worker-28: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 18:07:23,976 [Worker-28: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 18:07:24,058 [Worker-28: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 18:07:36,268 [Worker-26: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 18:07:36,362 [Worker-26: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 18:07:36,438 [Worker-26: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 18:10:17,396 [Worker-28: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 18:10:17,397 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 18:10:17,399 [Worker-28: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 18:10:17,400 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 18:14:34,127 [Worker-25: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 18:14:34,130 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 18:14:34,133 [Worker-25: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 18:14:34,135 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 18:14:37,038 [Worker-25: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 18:14:37,117 [Worker-25: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 18:14:37,189 [Worker-25: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 18:16:32,539 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 18:16:32,541 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 18:16:32,544 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 18:16:32,546 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 18:16:38,291 [Worker-34: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 18:16:38,353 [Worker-34: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 18:16:38,415 [Worker-34: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 18:18:18,698 [Worker-35: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 18:18:18,699 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 18:18:18,701 [Worker-35: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 18:18:18,702 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\test\resources to target\test-classes
+2024-06-07 18:18:24,049 [Worker-33: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 18:18:24,114 [Worker-33: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 18:18:24,174 [Worker-33: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:04:58,719 [Worker-50: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:04:58,840 [Worker-50: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:04:58,898 [Worker-50: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:11:55,192 [Worker-47: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 19:11:55,221 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 19:11:55,223 [Worker-47: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 19:11:55,250 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 19:12:00,223 [Worker-58: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:12:00,369 [Worker-58: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:12:00,433 [Worker-58: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:13:55,805 [Worker-53: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:13:55,980 [Worker-53: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:13:56,039 [Worker-53: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:14:01,291 [Worker-53: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:14:01,356 [Worker-53: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:14:01,410 [Worker-53: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:14:15,628 [Worker-47: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 19:14:15,629 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 19:14:15,630 [Worker-47: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 19:14:15,632 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-07 19:14:15,936 [Worker-47: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 19:14:15,938 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 19:14:15,940 [Worker-47: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 19:14:15,941 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-07 19:14:16,115 [Worker-47: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 19:14:16,116 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 19:14:16,117 [Worker-47: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 19:14:16,119 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 19:14:16,179 [Worker-47: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 19:14:16,179 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 19:14:16,181 [Worker-47: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 19:14:16,182 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-07 19:14:22,270 [Worker-60: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:14:22,356 [Worker-60: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:14:22,426 [Worker-60: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:15:06,946 [Worker-61: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 19:15:06,947 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 19:15:06,950 [Worker-61: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 19:15:06,951 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 19:15:09,116 [Worker-61: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:15:09,173 [Worker-61: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:15:09,224 [Worker-61: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:17:28,289 [Worker-64: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 19:17:28,290 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 19:17:28,292 [Worker-64: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 19:17:28,294 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 19:17:32,353 [Worker-64: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:17:32,418 [Worker-64: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:17:32,478 [Worker-64: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:17:58,072 [Worker-61: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:17:58,141 [Worker-61: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:17:58,203 [Worker-61: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:18:12,582 [Worker-61: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 19:18:12,583 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 19:18:12,585 [Worker-61: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 19:18:12,587 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 19:18:17,684 [Worker-66: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:18:17,748 [Worker-66: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:18:17,803 [Worker-66: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:19:12,750 [Worker-61: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 19:19:12,751 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 19:19:12,753 [Worker-61: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 19:19:12,754 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 19:19:20,005 [Worker-53: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:19:20,080 [Worker-53: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:19:20,132 [Worker-53: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:20:06,924 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-06-07 19:20:16,621 [Worker-10: Launching MyFirstTest] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2024-06-07 19:20:16,635 [Worker-10: Launching MyFirstTest] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2024-06-07 19:20:16,643 [Worker-10: Launching MyFirstTest] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2024-06-07 19:20:18,582 [Worker-10: Launching MyFirstTest] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.beust:jcommander:jar:1.66 is missing, no dependency information available
+2024-06-07 19:20:20,578 [Worker-10: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier  to /Drawify_Testing/target/classes
+2024-06-07 19:20:20,863 [Worker-10: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:20:21,095 [Worker-10: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:20:21,232 [Worker-10: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:23:43,547 [Worker-2: Launching ReadpropertyFile] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:23:43,635 [Worker-2: Launching ReadpropertyFile] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:23:43,723 [Worker-2: Launching ReadpropertyFile] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:24:29,933 [Worker-23: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 19:24:29,943 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 19:24:29,946 [Worker-23: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 19:24:29,966 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 19:24:36,849 [Worker-17: Launching ReadpropertyFile] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:24:36,905 [Worker-17: Launching ReadpropertyFile] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:24:36,963 [Worker-17: Launching ReadpropertyFile] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:25:24,125 [Worker-23: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 19:25:24,127 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 19:25:24,129 [Worker-23: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 19:25:24,130 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 19:25:25,967 [Worker-23: Launching ReadpropertyFile] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:25:26,036 [Worker-23: Launching ReadpropertyFile] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:25:26,104 [Worker-23: Launching ReadpropertyFile] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:51:41,167 [Worker-33: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:51:41,391 [Worker-33: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:51:41,455 [Worker-33: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:54:16,379 [Worker-31: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 19:54:16,434 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 19:54:16,437 [Worker-31: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 19:54:16,439 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 19:54:24,433 [Worker-31: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 19:54:24,434 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 19:54:24,437 [Worker-31: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 19:54:24,438 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 19:54:27,661 [Worker-35: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:54:27,779 [Worker-35: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 19:54:27,841 [Worker-35: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 20:03:51,845 [Worker-46: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 20:03:51,875 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 20:03:51,877 [Worker-46: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 20:03:51,903 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-07 20:06:49,659 [Worker-46: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 20:06:49,682 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 20:06:49,686 [Worker-46: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 20:06:49,706 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 20:06:58,357 [Worker-46: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 20:06:58,577 [Worker-46: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 20:06:58,634 [Worker-46: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 20:18:01,750 [Worker-43: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 20:18:01,877 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 20:18:01,883 [Worker-43: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 20:18:01,904 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 20:18:06,736 [Worker-43: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 20:18:06,842 [Worker-43: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 20:18:06,903 [Worker-43: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 20:21:09,059 [Worker-60: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 20:21:09,070 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 20:21:09,073 [Worker-60: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 20:21:09,076 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 20:21:25,699 [Worker-60: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 20:21:25,700 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 20:21:25,704 [Worker-60: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 20:21:25,706 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 20:21:30,421 [Worker-58: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 20:21:30,605 [Worker-58: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 20:21:30,686 [Worker-58: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 20:22:54,469 [Worker-67: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 20:22:54,471 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 20:22:54,473 [Worker-67: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 20:22:54,474 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-07 20:22:54,792 [Worker-67: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 20:22:54,793 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 20:22:54,795 [Worker-67: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 20:22:54,796 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-07 20:22:54,959 [Worker-67: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 20:22:54,960 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 20:22:54,962 [Worker-67: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 20:22:54,963 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 20:22:55,074 [Worker-67: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 20:22:55,075 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 20:22:55,078 [Worker-67: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 20:22:55,079 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-07 20:22:59,231 [Worker-67: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 20:22:59,301 [Worker-67: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 20:22:59,360 [Worker-67: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 20:25:29,247 [Worker-63: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 20:25:29,268 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 20:25:29,270 [Worker-63: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 20:25:29,292 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\test\resources to target\test-classes
+2024-06-07 20:25:48,962 [Worker-66: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 20:25:48,964 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 20:25:48,966 [Worker-66: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 20:25:48,967 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 20:25:53,037 [Worker-63: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 20:25:53,124 [Worker-63: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 20:25:53,181 [Worker-63: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 20:29:10,117 [Worker-68: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 20:29:10,118 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 20:29:10,121 [Worker-68: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 20:29:10,123 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 20:29:15,434 [Worker-68: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 20:29:15,500 [Worker-68: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 20:29:15,569 [Worker-68: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 20:29:50,066 [Worker-68: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 20:29:50,067 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 20:29:50,069 [Worker-68: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 20:29:50,071 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 20:29:55,564 [Worker-68: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 20:29:55,566 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 20:29:55,568 [Worker-68: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 20:29:55,570 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-07 20:29:55,761 [Worker-68: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 20:29:55,762 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 20:29:55,764 [Worker-68: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 20:29:55,765 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-07 20:29:55,891 [Worker-68: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 20:29:55,892 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 20:29:55,894 [Worker-68: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 20:29:55,895 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 20:29:55,944 [Worker-68: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 20:29:55,944 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 20:29:55,946 [Worker-68: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 20:29:55,947 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-07 20:30:00,415 [Worker-63: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 20:30:00,487 [Worker-63: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 20:30:00,573 [Worker-63: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 20:30:17,183 [Worker-75: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 20:30:17,185 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 20:30:17,187 [Worker-75: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 20:30:17,188 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 20:30:37,354 [Worker-72: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 20:30:37,355 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 20:30:37,358 [Worker-72: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 20:30:37,360 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 20:30:41,919 [Worker-66: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 20:30:41,984 [Worker-66: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 20:30:42,041 [Worker-66: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 20:32:53,323 [Worker-63: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 20:32:53,324 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 20:32:53,326 [Worker-63: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 20:32:53,329 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\test\resources to target\test-classes
+2024-06-07 20:33:02,403 [Worker-80: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 20:33:02,480 [Worker-80: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 20:33:02,547 [Worker-80: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 20:34:04,721 [Worker-82: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 20:34:04,723 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 20:34:04,725 [Worker-82: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 20:34:04,726 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 20:34:09,247 [Worker-75: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 20:34:09,313 [Worker-75: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 20:34:09,378 [Worker-75: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 22:03:41,018 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-06-07 22:04:38,413 [Worker-4: Launching MyFirstTest] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2024-06-07 22:04:38,421 [Worker-4: Launching MyFirstTest] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2024-06-07 22:04:38,427 [Worker-4: Launching MyFirstTest] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2024-06-07 22:04:38,760 [Worker-4: Launching MyFirstTest] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.beust:jcommander:jar:1.66 is missing, no dependency information available
+2024-06-07 22:04:39,867 [Worker-4: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier  to /Drawify_Testing/target/classes
+2024-06-07 22:04:40,114 [Worker-4: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 22:04:40,258 [Worker-4: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 22:04:40,344 [Worker-4: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 22:16:51,882 [Worker-26: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:16:51,958 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 22:16:51,965 [Worker-26: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:16:52,615 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 22:26:44,730 [Worker-17: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:26:44,932 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 22:26:44,942 [Worker-17: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:26:44,952 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 22:26:55,245 [Worker-28: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 22:26:55,580 [Worker-28: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 22:26:55,668 [Worker-28: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 22:29:42,858 [Worker-35: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:29:42,866 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 22:29:42,870 [Worker-35: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:29:42,875 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\test\resources to target\test-classes
+2024-06-07 22:31:02,923 [Worker-31: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 22:31:03,109 [Worker-31: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 22:31:03,183 [Worker-31: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 22:33:40,906 [Worker-40: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:33:40,952 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 22:33:40,955 [Worker-40: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:33:40,994 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\test\resources to target\test-classes
+2024-06-07 22:34:21,022 [Worker-39: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:34:21,023 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 22:34:21,025 [Worker-39: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:34:21,027 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 22:34:26,063 [Worker-42: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 22:34:26,151 [Worker-42: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 22:34:26,220 [Worker-42: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 22:40:26,011 [Worker-38: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:40:26,324 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 22:40:26,327 [Worker-38: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:40:26,408 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\test\resources to target\test-classes
+2024-06-07 22:40:27,012 [Worker-51: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:40:27,014 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 22:40:27,017 [Worker-51: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:40:27,019 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 22:40:46,553 [Worker-38: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:40:46,555 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 22:40:46,557 [Worker-38: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:40:46,559 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 22:40:58,073 [Worker-49: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:40:58,074 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 22:40:58,076 [Worker-49: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:40:58,077 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-07 22:40:58,382 [Worker-49: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:40:58,383 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 22:40:58,385 [Worker-49: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:40:58,386 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-07 22:40:58,579 [Worker-49: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:40:58,580 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 22:40:58,583 [Worker-49: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:40:58,584 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 22:40:58,670 [Worker-49: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:40:58,672 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 22:40:58,674 [Worker-49: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:40:58,676 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-07 22:41:03,123 [Worker-38: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 22:41:03,197 [Worker-38: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 22:41:03,259 [Worker-38: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 22:43:17,316 [Worker-49: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:43:17,340 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 22:43:17,343 [Worker-49: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:43:17,440 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 22:43:27,140 [Worker-46: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 22:43:27,371 [Worker-46: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 22:43:27,429 [Worker-46: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 22:44:52,261 [Worker-46: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:44:52,262 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 22:44:52,264 [Worker-46: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:44:52,266 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 22:44:56,940 [Worker-52: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 22:44:57,007 [Worker-52: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 22:44:57,066 [Worker-52: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 22:47:21,961 [Worker-38: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:47:21,980 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 22:47:21,981 [Worker-38: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:47:22,098 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 22:49:21,045 [Worker-51: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 22:49:21,432 [Worker-51: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 22:49:21,488 [Worker-51: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 22:52:04,193 [Worker-51: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:52:04,204 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 22:52:04,206 [Worker-51: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:52:04,349 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 22:52:13,743 [Worker-58: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 22:52:13,873 [Worker-58: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 22:52:13,961 [Worker-58: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 22:53:12,770 [Worker-54: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:53:12,798 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 22:53:12,800 [Worker-54: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:53:12,855 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 22:53:29,750 [Worker-58: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:53:29,752 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 22:53:29,754 [Worker-58: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:53:29,755 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 22:53:35,305 [Worker-38: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 22:53:35,374 [Worker-38: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 22:53:35,430 [Worker-38: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 22:56:39,306 [Worker-57: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:56:39,318 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 22:56:39,321 [Worker-57: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:56:39,340 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 22:57:04,192 [Worker-51: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:57:04,194 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 22:57:04,195 [Worker-51: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:57:04,198 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 22:57:15,744 [Worker-57: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:57:15,746 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 22:57:15,749 [Worker-57: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:57:15,751 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 22:58:19,966 [Worker-38: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:58:19,967 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 22:58:19,968 [Worker-38: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:58:19,970 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 22:58:39,201 [Worker-51: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:58:39,202 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 22:58:39,204 [Worker-51: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:58:39,205 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 22:58:49,590 [Worker-59: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:58:49,591 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 22:58:49,593 [Worker-59: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:58:49,595 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 22:59:00,620 [Worker-56: Building Workspace] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:59:00,621 [Worker-56: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 22:59:00,622 [Worker-56: Building Workspace] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:59:00,623 [Worker-56: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-07 22:59:00,866 [Worker-56: Building Workspace] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:59:00,867 [Worker-56: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 22:59:00,868 [Worker-56: Building Workspace] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:59:00,869 [Worker-56: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-07 22:59:01,006 [Worker-56: Building Workspace] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:59:01,007 [Worker-56: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 22:59:01,009 [Worker-56: Building Workspace] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:59:01,009 [Worker-56: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 22:59:01,274 [Worker-56: Building Workspace] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:59:01,278 [Worker-56: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 22:59:01,280 [Worker-56: Building Workspace] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 22:59:01,280 [Worker-56: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-07 22:59:14,439 [Worker-57: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 22:59:14,512 [Worker-57: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 22:59:14,569 [Worker-57: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:01:10,436 [Worker-56: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:01:10,438 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 23:01:10,440 [Worker-56: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:01:10,442 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-07 23:01:22,897 [Worker-60: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:01:22,968 [Worker-60: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:01:23,028 [Worker-60: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:04:56,369 [Worker-51: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:04:56,371 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 23:04:56,373 [Worker-51: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:04:56,374 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 23:05:29,007 [Worker-63: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:05:29,007 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 23:05:29,009 [Worker-63: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:05:29,011 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 23:05:57,361 [Worker-63: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:05:57,362 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 23:05:57,364 [Worker-63: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:05:57,365 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 23:06:06,297 [Worker-52: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:06:06,298 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 23:06:06,301 [Worker-52: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:06:06,302 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-07 23:06:06,478 [Worker-52: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:06:06,480 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 23:06:06,481 [Worker-52: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:06:06,482 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-07 23:06:06,575 [Worker-52: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:06:06,576 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 23:06:06,579 [Worker-52: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:06:06,579 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 23:06:06,632 [Worker-52: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:06:06,633 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 23:06:06,634 [Worker-52: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:06:06,635 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-07 23:06:17,464 [Worker-63: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:06:17,519 [Worker-63: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:06:17,574 [Worker-63: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:08:14,256 [Worker-65: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:08:14,312 [Worker-65: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:08:14,361 [Worker-65: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:09:05,128 [Worker-51: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:09:05,183 [Worker-51: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:09:05,234 [Worker-51: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:09:24,777 [Worker-65: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:09:24,779 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 23:09:24,780 [Worker-65: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:09:24,781 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 23:09:30,422 [Worker-62: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:09:30,479 [Worker-62: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:09:30,528 [Worker-62: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:11:07,783 [Worker-66: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:11:07,785 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 23:11:07,786 [Worker-66: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:11:07,788 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 23:11:17,458 [Worker-51: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:11:17,459 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 23:11:17,460 [Worker-51: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:11:17,462 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 23:11:22,388 [Worker-66: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:11:22,442 [Worker-66: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:11:22,489 [Worker-66: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:16:09,509 [Worker-69: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:16:09,537 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 23:16:09,539 [Worker-69: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:16:09,561 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 23:16:43,269 [Worker-66: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:16:43,269 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 23:16:43,270 [Worker-66: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:16:43,271 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 23:16:48,362 [Worker-69: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:16:48,438 [Worker-69: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:16:48,485 [Worker-69: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:27:38,164 [Worker-72: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:27:38,219 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 23:27:38,221 [Worker-72: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:27:38,240 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\test\resources to target\test-classes
+2024-06-07 23:27:45,543 [Worker-72: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:27:45,741 [Worker-72: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:27:45,815 [Worker-72: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:29:26,295 [Worker-75: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:29:26,302 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 23:29:26,305 [Worker-75: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:29:26,308 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 23:29:31,131 [Worker-79: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:29:31,198 [Worker-79: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:29:31,255 [Worker-79: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:31:22,615 [Worker-78: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:31:22,628 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 23:31:22,629 [Worker-78: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:31:22,630 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-07 23:31:22,840 [Worker-78: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:31:22,841 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 23:31:22,842 [Worker-78: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:31:22,843 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-07 23:31:22,983 [Worker-78: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:31:22,984 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 23:31:22,985 [Worker-78: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:31:22,986 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 23:31:23,043 [Worker-78: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:31:23,044 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 23:31:23,045 [Worker-78: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:31:23,046 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-07 23:31:24,363 [Worker-74: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:31:24,469 [Worker-74: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:31:24,524 [Worker-74: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:35:03,710 [Worker-78: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:35:03,783 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 23:35:03,787 [Worker-78: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:35:03,905 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\test\resources to target\test-classes
+2024-06-07 23:35:53,745 [Worker-74: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:35:53,746 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 23:35:53,752 [Worker-74: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:35:53,753 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\test\resources to target\test-classes
+2024-06-07 23:36:02,104 [Worker-79: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:36:02,228 [Worker-79: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:36:02,316 [Worker-79: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:37:11,836 [Worker-77: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:37:11,897 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 23:37:11,899 [Worker-77: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:37:11,925 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 23:38:10,603 [Worker-75: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:38:10,616 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 23:38:10,619 [Worker-75: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:38:10,626 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 23:38:15,146 [Worker-72: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:38:15,221 [Worker-72: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:38:15,275 [Worker-72: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:41:15,789 [Worker-72: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:41:15,790 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 23:41:15,791 [Worker-72: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:41:15,792 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 23:41:22,053 [Worker-82: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:41:22,053 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 23:41:22,055 [Worker-82: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:41:22,055 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-07 23:41:22,379 [Worker-82: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:41:22,380 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 23:41:22,383 [Worker-82: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:41:22,383 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-07 23:41:22,483 [Worker-82: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:41:22,483 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 23:41:22,484 [Worker-82: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:41:22,485 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 23:41:22,550 [Worker-82: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:41:22,551 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 23:41:22,552 [Worker-82: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:41:22,553 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-07 23:41:25,967 [Worker-82: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:41:26,026 [Worker-82: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:41:26,080 [Worker-82: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:44:21,960 [Worker-81: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:44:21,993 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 23:44:21,999 [Worker-81: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:44:22,026 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 23:44:25,336 [Worker-72: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:44:25,397 [Worker-72: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:44:25,448 [Worker-72: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:55:48,077 [Worker-87: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:55:48,482 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-07 23:55:48,486 [Worker-87: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-07 23:55:48,522 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-07 23:55:52,084 [Worker-87: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:55:52,179 [Worker-87: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-07 23:55:52,237 [Worker-87: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 00:01:39,109 [Worker-91: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 00:01:39,267 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-08 00:01:39,273 [Worker-91: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 00:01:39,408 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-08 00:04:36,265 [Worker-93: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 00:04:36,292 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-08 00:04:36,294 [Worker-93: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 00:04:36,296 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-08 00:04:41,981 [Worker-92: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 00:04:41,982 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-08 00:04:41,984 [Worker-92: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 00:04:41,985 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-08 00:04:45,312 [Worker-89: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 00:04:45,376 [Worker-89: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 00:04:45,436 [Worker-89: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 00:07:26,441 [Worker-89: Launching MyFirstTest] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 00:07:26,500 [Worker-89: Launching MyFirstTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-08 00:07:26,512 [Worker-89: Launching MyFirstTest] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 00:07:26,521 [Worker-89: Launching MyFirstTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-08 00:07:26,910 [Worker-89: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 00:07:27,034 [Worker-89: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 00:07:27,090 [Worker-89: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 00:09:06,962 [Worker-89: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 00:09:06,976 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-08 00:09:06,979 [Worker-89: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 00:09:07,003 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-08 00:09:21,658 [Worker-96: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 00:09:21,659 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-08 00:09:21,701 [Worker-96: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 00:09:21,703 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-08 00:09:22,381 [Worker-96: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 00:09:22,381 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-08 00:09:22,382 [Worker-96: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 00:09:22,383 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-08 00:09:22,495 [Worker-96: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 00:09:22,496 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-08 00:09:22,497 [Worker-96: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 00:09:22,498 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-08 00:09:22,612 [Worker-96: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 00:09:22,613 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-08 00:09:22,615 [Worker-96: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 00:09:22,616 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-08 00:09:22,832 [Worker-93: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 00:09:22,898 [Worker-93: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 00:09:22,954 [Worker-93: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 11:34:46,262 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-06-08 11:36:12,190 [Worker-19: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/testng/testng/maven-metadata.xml
+2024-06-08 11:36:12,205 [Worker-19: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/testng/testng/maven-metadata.xml
+2024-06-08 11:36:12,339 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2024-06-08 11:36:12,436 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2024-06-08 11:36:12,575 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2024-06-08 11:36:13,664 [Worker-19: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/beust/jcommander/1.66/jcommander-1.66.pom
+2024-06-08 11:36:13,665 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.beust:jcommander:jar:1.66 is missing, no dependency information available
+2024-06-08 11:36:15,560 [Worker-19: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier  to /Drawify_Testing/target/classes
+2024-06-08 11:36:16,170 [Worker-19: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 11:36:16,177 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-08 11:36:16,183 [Worker-19: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 11:36:16,185 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-08 11:37:01,725 [Worker-12: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 11:37:01,874 [Worker-12: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 11:37:01,939 [Worker-12: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 11:43:00,364 [Worker-15: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 11:43:00,372 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-08 11:43:00,375 [Worker-15: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 11:43:00,378 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2024-06-08 11:51:13,656 [Worker-30: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:TestAutomationFramework:1.0-SNAPSHOT @ E:\github\framework_build\pom.xml.
+2024-06-08 11:51:14,298 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2024-06-08 11:51:14,313 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2024-06-08 11:51:14,462 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2024-06-08 11:51:15,105 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.beust:jcommander:jar:1.66 is missing, no dependency information available
+2024-06-08 11:51:16,706 [Worker-30: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml/5.2.5/poi-ooxml-5.2.5.pom
+2024-06-08 11:51:16,864 [Worker-30: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml/5.2.5/poi-ooxml-5.2.5.pom
+2024-06-08 11:51:17,033 [Worker-30: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml-lite/5.2.5/poi-ooxml-lite-5.2.5.pom
+2024-06-08 11:51:17,036 [Worker-30: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml-lite/5.2.5/poi-ooxml-lite-5.2.5.pom
+2024-06-08 11:51:17,240 [Worker-30: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/xmlbeans/xmlbeans/5.2.0/xmlbeans-5.2.0.pom
+2024-06-08 11:51:17,256 [Worker-30: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/xmlbeans/xmlbeans/5.2.0/xmlbeans-5.2.0.pom
+2024-06-08 11:51:17,463 [Worker-30: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.pom
+2024-06-08 11:51:17,468 [Worker-30: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.pom
+2024-06-08 11:51:17,633 [Worker-30: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.pom
+2024-06-08 11:51:17,639 [Worker-30: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.pom
+2024-06-08 11:51:17,963 [Worker-30: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.pom
+2024-06-08 11:51:17,967 [Worker-30: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.pom
+2024-06-08 11:51:18,159 [Worker-30: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/xmlbeans/xmlbeans/5.2.1/xmlbeans-5.2.1.pom
+2024-06-08 11:51:18,164 [Worker-30: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/xmlbeans/xmlbeans/5.2.1/xmlbeans-5.2.1.pom
+2024-06-08 11:51:18,347 [Worker-30: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.5.0-M1/commons-collections4-4.5.0-M1.pom
+2024-06-08 11:51:18,498 [Worker-30: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.5.0-M1/commons-collections4-4.5.0-M1.pom
+2024-06-08 11:51:18,663 [Worker-30: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/67/commons-parent-67.pom
+2024-06-08 11:51:18,975 [Worker-30: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/67/commons-parent-67.pom
+2024-06-08 11:51:19,619 [Worker-30: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier  to /Drawify_Testing/target/classes
+2024-06-08 11:51:19,663 [Worker-30: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier  to /Drawify_Testing/target/classes
+2024-06-08 11:51:20,155 [Worker-30: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml/5.2.5/poi-ooxml-5.2.5.jar
+2024-06-08 11:51:30,142 [Worker-30: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml/5.2.5/poi-ooxml-5.2.5.jar
+2024-06-08 11:51:30,286 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar
+2024-06-08 11:51:32,762 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.jar
+2024-06-08 11:51:32,762 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/xmlbeans/xmlbeans/5.2.1/xmlbeans-5.2.1.jar
+2024-06-08 11:51:33,066 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml-lite/5.2.5/poi-ooxml-lite-5.2.5.jar
+2024-06-08 11:51:33,728 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.5.0-M1/commons-collections4-4.5.0-M1.jar
+2024-06-08 11:51:36,975 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.jar
+2024-06-08 11:51:57,344 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.5.0-M1/commons-collections4-4.5.0-M1.jar
+2024-06-08 11:52:23,514 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar
+2024-06-08 11:52:23,534 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/xmlbeans/xmlbeans/5.2.1/xmlbeans-5.2.1.jar
+2024-06-08 11:52:37,843 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml-lite/5.2.5/poi-ooxml-lite-5.2.5.jar
+2024-06-08 11:52:38,533 [Worker-30: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 11:52:38,538 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-08 11:52:38,543 [Worker-30: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 11:52:38,555 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-08 11:52:39,962 [Worker-28: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml/5.2.5/poi-ooxml-5.2.5-sources.jar
+2024-06-08 11:52:41,172 [Worker-27: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 11:52:41,175 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-08 11:52:41,180 [Worker-27: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 11:52:41,184 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\test\resources to target\test-classes
+2024-06-08 11:52:43,928 [Worker-28: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml/5.2.5/poi-ooxml-5.2.5-sources.jar
+2024-06-08 11:52:43,942 [Worker-28: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.poi:poi-ooxml:5.2.5
+2024-06-08 11:52:44,540 [Worker-28: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml-lite/5.2.5/poi-ooxml-lite-5.2.5-sources.jar
+2024-06-08 11:53:13,747 [Worker-28: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml-lite/5.2.5/poi-ooxml-lite-5.2.5-sources.jar
+2024-06-08 11:53:13,753 [Worker-28: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.poi:poi-ooxml-lite:5.2.5
+2024-06-08 11:53:14,096 [Worker-28: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/virtuald/curvesapi/1.08/curvesapi-1.08-sources.jar
+2024-06-08 11:53:14,613 [Worker-28: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/virtuald/curvesapi/1.08/curvesapi-1.08-sources.jar
+2024-06-08 11:53:14,618 [Worker-28: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.github.virtuald:curvesapi:1.08
+2024-06-08 11:53:15,216 [Worker-28: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2-sources.jar
+2024-06-08 11:53:15,225 [Worker-28: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.apache.poi:poi-ooxml-schemas:4.1.2
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.apache.poi:poi-ooxml-schemas:jar:sources:4.1.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$6(MavenImpl.java:584)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:228)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:553)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:538)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-06-08 11:53:15,642 [Worker-28: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/xmlbeans/xmlbeans/5.2.1/xmlbeans-5.2.1-sources.jar
+2024-06-08 11:53:18,747 [Worker-28: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/xmlbeans/xmlbeans/5.2.1/xmlbeans-5.2.1-sources.jar
+2024-06-08 11:53:18,778 [Worker-28: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.xmlbeans:xmlbeans:5.2.1
+2024-06-08 11:53:19,170 [Worker-28: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.5.0-M1/commons-collections4-4.5.0-M1-sources.jar
+2024-06-08 11:53:20,628 [Worker-28: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.5.0-M1/commons-collections4-4.5.0-M1-sources.jar
+2024-06-08 11:53:20,634 [Worker-28: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.commons:commons-collections4:4.5.0-M1
+2024-06-08 16:36:41,898 [Worker-116: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 16:36:41,958 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-08 16:36:41,963 [Worker-116: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 16:36:42,088 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\test\resources to target\test-classes
+2024-06-08 17:44:41,864 [Worker-135: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 17:44:42,164 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-08 17:44:42,170 [Worker-135: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 17:44:42,270 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\test\resources to target\test-classes
+2024-06-08 17:45:47,097 [Worker-136: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 17:45:47,098 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-08 17:45:47,100 [Worker-136: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 17:45:47,102 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\test\resources to target\test-classes
+2024-06-08 17:46:32,142 [Worker-135: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 17:46:32,143 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-08 17:46:32,146 [Worker-135: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 17:46:32,148 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\test\resources to target\test-classes
+2024-06-08 17:46:38,648 [Worker-135: Launching readXLSdata] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 17:46:38,720 [Worker-135: Launching readXLSdata] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 17:46:38,785 [Worker-135: Launching readXLSdata] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 17:46:40,877 [Worker-131: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2-javadoc.jar
+2024-06-08 17:46:40,882 [Worker-131: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.apache.poi:poi-ooxml-schemas:4.1.2
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.apache.poi:poi-ooxml-schemas:jar:javadoc:4.1.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$6(MavenImpl.java:584)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:228)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:553)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:538)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-06-08 17:48:15,109 [Worker-137: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 17:48:15,110 [Worker-137: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-08 17:48:15,112 [Worker-137: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 17:48:15,114 [Worker-137: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\test\resources to target\test-classes
+2024-06-08 17:48:18,472 [Worker-136: Launching readXLSdata] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 17:48:18,538 [Worker-136: Launching readXLSdata] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 17:48:18,603 [Worker-136: Launching readXLSdata] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 17:48:57,392 [Worker-137: Launching readXLSdata] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 17:48:57,499 [Worker-137: Launching readXLSdata] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 17:48:57,573 [Worker-137: Launching readXLSdata] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 17:50:13,552 [Worker-135: Launching readXLSdata] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 17:50:13,615 [Worker-135: Launching readXLSdata] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 17:50:13,674 [Worker-135: Launching readXLSdata] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 17:51:25,648 [Worker-139: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 17:51:25,673 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-08 17:51:25,675 [Worker-139: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 17:51:25,707 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\test\resources to target\test-classes
+2024-06-08 17:51:28,358 [Worker-135: Launching readXLSdata] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 17:51:28,417 [Worker-135: Launching readXLSdata] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 17:51:28,485 [Worker-135: Launching readXLSdata] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 17:52:12,417 [Worker-135: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 17:52:12,418 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-08 17:52:12,421 [Worker-135: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 17:52:12,423 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\test\resources to target\test-classes
+2024-06-08 17:52:14,938 [Worker-140: Launching readXLSdata] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 17:52:15,003 [Worker-140: Launching readXLSdata] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 17:52:15,068 [Worker-140: Launching readXLSdata] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 17:52:41,732 [Worker-135: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 17:52:41,734 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-08 17:52:41,736 [Worker-135: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 17:52:41,738 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\test\resources to target\test-classes
+2024-06-08 17:52:44,004 [Worker-140: Launching readXLSdata] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 17:52:44,064 [Worker-140: Launching readXLSdata] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 17:52:44,124 [Worker-140: Launching readXLSdata] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 23:29:09,094 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-06-08 23:29:11,045 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2024-06-08 23:29:11,054 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2024-06-08 23:29:11,060 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2024-06-08 23:29:11,412 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.beust:jcommander:jar:1.66 is missing, no dependency information available
+2024-06-08 23:29:12,387 [Worker-12: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier  to /Drawify_Testing/target/classes
+2024-06-08 23:29:12,899 [Worker-12: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:TestAutomationFramework:1.0-SNAPSHOT @ E:\github\framework_build\pom.xml.
+2024-06-08 23:29:13,036 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2024-06-08 23:29:13,039 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2024-06-08 23:29:13,042 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2024-06-08 23:29:13,159 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.beust:jcommander:jar:1.66 is missing, no dependency information available
+2024-06-08 23:29:13,542 [Worker-12: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier  to /Drawify_Testing/target/classes
+2024-06-08 23:29:13,875 [Worker-12: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 23:29:14,063 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-08 23:29:14,068 [Worker-12: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 23:29:14,069 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\test\resources to target\test-classes
+2024-06-08 23:30:13,988 [Worker-16: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 23:30:13,990 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-08 23:30:13,992 [Worker-16: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 23:30:13,994 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\test\resources to target\test-classes
+2024-06-08 23:45:10,181 [Worker-20: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 23:45:10,200 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-08 23:45:10,203 [Worker-20: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 23:45:10,225 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\test\resources to target\test-classes
+2024-06-08 23:45:31,196 [Worker-22: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 23:45:31,318 [Worker-22: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 23:45:31,390 [Worker-22: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 23:45:49,259 [Worker-24: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 23:45:49,260 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-08 23:45:49,262 [Worker-24: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 23:45:49,263 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-08 23:45:49,515 [Worker-24: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 23:45:49,516 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-08 23:45:49,519 [Worker-24: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 23:45:49,519 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-08 23:45:49,652 [Worker-24: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 23:45:49,653 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-08 23:45:49,657 [Worker-24: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 23:45:49,658 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\test\resources to target\test-classes
+2024-06-08 23:45:49,724 [Worker-24: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 23:45:49,725 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-08 23:45:49,727 [Worker-24: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 23:45:49,728 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-08 23:45:54,136 [Worker-26: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 23:45:54,199 [Worker-26: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 23:45:54,267 [Worker-26: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 23:48:09,513 [Worker-20: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 23:48:09,514 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-08 23:48:09,517 [Worker-20: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 23:48:09,520 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\test\resources to target\test-classes
+2024-06-08 23:48:15,227 [Worker-20: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 23:48:15,298 [Worker-20: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 23:48:15,351 [Worker-20: Launching MyFirstTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 23:55:15,280 [Worker-29: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 23:55:15,344 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-08 23:55:15,345 [Worker-29: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-08 23:55:15,395 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\test\resources to target\test-classes
+2024-06-08 23:59:07,526 [Worker-29: Launching MyFirstTest.LoginTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 23:59:07,695 [Worker-29: Launching MyFirstTest.LoginTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-08 23:59:07,766 [Worker-29: Launching MyFirstTest.LoginTest] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier null to /Drawify_Testing/target/classes
+2024-06-09 22:28:34,386 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-06-09 22:28:38,349 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/testng/testng/maven-metadata.xml
+2024-06-09 22:28:38,363 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/testng/testng/maven-metadata.xml
+2024-06-09 22:28:38,850 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2024-06-09 22:28:38,868 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2024-06-09 22:28:38,883 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2024-06-09 22:28:40,185 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/beust/jcommander/1.66/jcommander-1.66.pom
+2024-06-09 22:28:40,187 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.beust:jcommander:jar:1.66 is missing, no dependency information available
+2024-06-09 22:28:41,195 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Drawify_Testing: Automation:Automation_Test:0.0.1-SNAPSHOT with classifier  to /Drawify_Testing/target/classes
+2024-06-09 22:28:41,489 [Worker-2: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-09 22:28:41,494 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-09 22:28:41,498 [Worker-2: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-09 22:28:41,499 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\test\resources to target\test-classes
