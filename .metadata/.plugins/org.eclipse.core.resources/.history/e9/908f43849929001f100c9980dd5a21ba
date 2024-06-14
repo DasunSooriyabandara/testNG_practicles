@@ -1,0 +1,41 @@
+package learningjava;
+
+public class SingleDimentionArray {
+
+	public static void main(String[] args) {
+
+		int[] mySIntArray = new int[10];
+		int[] myarray = { 10, 30, 56, 0, 6, 0, 0, 2, 5, 5, 6 };
+		System.out.println(myarray.length);
+
+		String[] myStringArray = new String[10];
+
+		System.out.println(myStringArray);
+
+		int array[] = { 5, 2, 8, 7, 1, };
+		
+		
+		
+		
+
+		int arr[] = { 5, 2, 8, 7, 1 };
+		System.out.print("orginal array");
+		for (int i = 0; i < arr.length; i++)
+			System.out.print(arr[i] + "");
+
+		int temp = 0;
+		for (int i = 0; i < arr.length; i++) {
+			for (int j = i + 1; j < arr.length; j++)
+				if (arr[j] < arr[i]) {
+					temp = arr[i];
+					arr[i] = arr[j];
+					arr[j] = temp;
+				}
+		}
+		System.out.print("\nSorted array");
+		for (int i = 0; i < arr.length; i++)
+			System.out.print(arr[i] + "");
+	
+	}
+
+}

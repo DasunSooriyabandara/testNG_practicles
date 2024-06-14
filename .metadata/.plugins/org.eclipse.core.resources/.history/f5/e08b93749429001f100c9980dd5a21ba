@@ -1,0 +1,23 @@
+package learningjava;
+
+public class SingleDimentionArray {
+
+	public static void main(String[] args) {
+
+		int[] mySIntArray = new int[10];
+		int[] myarray = { 10, 30, 56, 0, 6, 0, 0, 2, 5, 5, 6 };
+		System.out.println(myarray.length);
+		
+		
+
+		String[] myStringArray = new String[10];
+		
+		System.out.println(myStringArray);
+
+		String[] myvehicles = {camro, tesla, Regalado,conigseg}
+			System.out.println(myvehicles.length);
+			System.out.println(myvehicles);
+
+	}
+
+}
