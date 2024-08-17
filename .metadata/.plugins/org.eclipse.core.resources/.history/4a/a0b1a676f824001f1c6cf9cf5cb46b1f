@@ -1,7 +1,0 @@
-signin_link=/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[4]/div[1]/a[1]
-email_field=email
-next_button=nextbtn
-pwd_field=password
-login_next_button=loginNext
-profile_link=profile
-error_message=errorMessage
